@@ -1,0 +1,58 @@
+body{
+    background-color: #226BC5;
+    color: white;
+}
+table{
+    margin: auto;
+}
+tr{
+ border-bottom: 1.5pt solid white;
+}
+table th{
+    border-bottom: solid  1.8px white;
+}
+table td{
+    border-bottom: solid 1.8px white;
+    padding: 1ch;
+}
+h1{
+    text-align: center;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+ul >a:hover{
+    background-color: white;
+    color: black;
+    transition: transform 3s;
+}
+
+ul >a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    transition: 1.2s;
+    padding: 5px;
+}
+nav{
+    border-bottom: dotted 2px;
+}
+img{
+    width:200px;
+    height: 200px;
+    border-radius: 10%;
+    transition: 1s;
+}
+div{
+    display: flex;
+    justify-content: space-evenly
+    ;
+}
+
+img:hover{
+    height: 300px;
+    width: 300px;
+    transform: scale(1.4);
+}
